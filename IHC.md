@@ -107,3 +107,35 @@ Estes fatores de usabilidade podem ser operacionalizados em forma de perguntas, 
 	- Refere-se em entender quais são as  **emoções** e **sentimentos** dos usuários ao utilizar um produto ou sistema
 
 
+- Pode-se investigar vários aspectos positivos e negativos relacionados à UX
+	- **Positivos:** Prazer, diversão, entretenimento, interesse, atração, motivação, estética, criatividade.
+	- **Negativos:** Provocação, surpresa, desafio, cansaço, frustação, raiva, ofensa.
+
+
+#### Não é possível prever nem controlar completamente a UX de cada usuário, pois é algo pessoal e subjetivo.
+
+Entretanto, é possível projetar sistemas interativos visando promover uma boa experiência de uso, implementando características que promovam boas emoções e evitem ao máximo provocar sensações negativas e [desagradáveis](https://studeo.unicesumar.edu.br/)
+
+## Acessibilidade
+### Flexibilidade proporcionada para o acesso à informação e à interação, de maneira que usuários com diferentes deficiências possam acessar e usar esses sistemas” *(Melo e Baranauskas, 2005)*
+
+- Durante a interação, o usuário emprega:
+	- Sua **habilidade motora** sobre os dispositivos de entrada
+	- Seus **sentidos** e **capacidade de percepção**
+	- Sua capacidade **cognitiva**, **interpretação** e **raciocínio**
+
+O principal papel da acessibilidade é quebrar barreiras de usabilidade e incluir/atender uma classe de usuários com necessidades especiais
+
+## Comunicabilidade
+### "Capacidade da interface de comunicar ao usuário a lógica do design: as intenções do designer e os princípios de interação resultantes das decisões tomadas durante o processo de design” *(Prates et al., 2000)*
+
+- A interface deve comunicar ao usuário a **lógica do design**
+	- A quem o sistema é destinado
+	- Qual seu propósito
+	- Qual a vantagem de usá-lo
+	- Como ele funciona
+	- Quais os princípios gerais de interação com o sistema
+
+Se os usuários não compreendem a lógica do design, a interação se tornará algo **frustrante**, **ineficiente** ou até mesmo **arriscado**
+
+A incerteza sobre o efeito de  uma ação pode causar **angústia** e **[insatisfação](https://studeo.unicesumar.edu.br/)** aos usuários
