@@ -270,3 +270,40 @@ $$Disponibilidade = \frac{\text{Tempo de operação}}{\text{Tempo total}} \times
 - **Fan-out de Z:** 0
 - **Fan-in de W:** 0
 - **Fan-out de W:** 3 (X, Y, Z)
+
+
+## Métricas OO (CK)
+
+- Métricas de Chidamber-Kemerer (CK) específicas para sistemas orientados a objetos:
+	- Profundidade de herança **(DIT)**
+		- Representa o número de níveis que uma classe herda métodos e atributos
+			- Quanto maior a profundidade, mais complexo o projeto
+
+	- Número de filhos **(NOC)**
+		- Conta o número de subclasses diretas
+		- Mede a largura da hierarquia de uma classe
+		- Valor alto pode indicar reuso
+
+	- Acoplamento entre objetos **(CBO)**
+		- Semelhante a Fan-out
+		- Conta classes chamadas por uma classe
+		- Quanto mais acoplado uma classe, mais difícil de entender e de manter
+
+	- Falta de coesão em métodos **(LCOM)**
+		- Para cada par de métodos, métodos que não compartilham atributos menos os que compartilham
+		- Mais atributos em comum, maior coesão, menor perda de coesão (LCOM)
+		- Baixa coesão aumenta a complexidade
+
+	- Métodos ponderados por classes **(WMC)**
+		- Atribui pesos aos métodos de uma classe
+		- Pode-se pesar os métodos por:
+			- Linhas de código
+			- Complexidade ciclomática
+			- Número de parâmetros
+
+	- Resposta para classe **(RFC)**
+		- Conta os números de métodos que podem ser executados em resposta a uma mensagem recebida por um objeto
+		- Conta o número de métodos da classe mais o número de métodos chamados pelos métodos da classe
+		- Quanto maior o RFC, mais complexa é a classe
+
+
