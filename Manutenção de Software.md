@@ -165,6 +165,7 @@
 *Em um projeto de manutenção de software, se um sistema permanece operacional por 300 horas com 5 falhas, o MTBF seria de 60 horas.*
 
 **Fórmula:**
+<br>
 
 $$MTBF = \frac{\text{Tempo Total de Operação}}{\text{Número de Falhas}}$$
 
@@ -179,12 +180,14 @@ Mede o tempo médio necessário para diagnosticar e reparar uma falha. Ele consi
 *O sistema falha a cada 120 horas de operação, o que significa que a equipe pode programar manutenções preventivas a cada 100 horas de uso, reduzindo a chance de falhas inesperadas.*
 
 **Fórmula:**
+<br>
 
 $$MTTR = \frac{\text{Tempo Total de Reparação}}{\text{Número de Reparaçōes}}$$
 
 <br><br><br>
 
 **Fórmula: Tempo médio para reparar (MTTR) para o tempo total de resolução de problemas**
+<br><br><br>
 
 $$MTTR = \frac{\text{Total de tempo gasto na resolução de problemas}}{\text{Número de problemas resolvidos}}$$
 
@@ -195,6 +198,7 @@ $$MTTR = \frac{\text{Total de tempo gasto na resolução de problemas}}{\text{N�
 Útil para medir a eficácia do time de manutenção em aplicar soluções robustas e eficientes já na primeira tentativa, o que é crucial para ambientes onde a recorrência de problemas pode gerar atrasos e aumento de custos.
 
 **Fórmula:**
+<br>
 
 $$FTFR = \frac{\text{Número de problemas corrigidos na primeira tentativa}}{\text{Total de problemas corrigidos}} \times 100$$
 
@@ -203,6 +207,7 @@ $$FTFR = \frac{\text{Número de problemas corrigidos na primeira tentativa}}{\te
 ## Backlog de Manutenção
 
 **Fórmula:**
+<br>
 
 $$Backlog = \frac{\text{Número total de tarefas de manutenção pendentes}}{\text{Capacidade de resolução da equipe por período}} \times 100$$
 
@@ -213,6 +218,7 @@ $$Backlog = \frac{\text{Número total de tarefas de manutenção pendentes}}{\te
 Mede o percentual de tempo que o sistema está disponível para uso pelos usuários. Em software, ela é particularmente importante para produtos SaaS, e-commerce ou qualquer software que precise estar sempre online.
 
 **Fórmula:**
+<br>
 
 $$Disponibilidade = \frac{\text{Tempo de operação}}{\text{Tempo total}} \times 100$$
 
