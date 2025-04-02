@@ -1,4 +1,4 @@
-# Manutenção de software
+﻿# Manutenção de software
 
 **Responsável por lidar com as mudanças relacionadas ao software depois de sua entrega**
 
@@ -7,6 +7,7 @@
 - Difícil de quantificar:
 	- Alguns aspectos do sistema podem ser medidos *(ex: complexidade, portabilidade)*
 
+<br>
 
 ## Métricas de Chidamber-Kemerer (CK): específicas para OO
 - Profundidade de herança **(DIT)**
@@ -16,6 +17,8 @@
 - Métodos ponderados por classe **(WMC)**
 - Resposta para classe **(RFC)**
 
+<br>
+
 ## Desenvolvimento vs Manutenção
 
 - Adicionar uma nova funcionalidade durante o desenvolvimento é mais fácil que durante a manutenção
@@ -24,6 +27,8 @@
 	- Realizar como a  mudança será acomodada
 	- Prever o impacto da mudança *(efeito cascata)*
 	- Determinar as características necessárias para o trabalho
+
+<br>
 
 ## Razões para manutenção de software
 
@@ -36,6 +41,7 @@
 - Adaptar a leis, regras de negócio, etc
 - Refatorar código
 
+<br>
 
 ## Categorias de Manutenção
 
@@ -44,8 +50,8 @@
 - Manutenção **A**daptativa
 - Manutenção perfectiva ou **E**volutiva
 
-<img src="https://github.com/user-attachments/assets/fd20901b-ff11-470b-996a-17695855ea76" height="auto" width="600">
 
+<img src="https://github.com/user-attachments/assets/fd20901b-ff11-470b-996a-17695855ea76" height="auto" width="500">
 
 - **Manutenção Corretiva:**
 	- Modificações no software para corrigir defeitos 
@@ -69,20 +75,25 @@
 	- Quando um software se torna útil, os usuário solicitam melhorias além do escopo inicial
 	- *(Ex: novas funcionalidades)*
 
+<br>
+
 ## Proporção de manutenção
 
-<img src="https://github.com/user-attachments/assets/864b807c-c975-4203-9083-73ce89ee2c00" height="auto" width="300">
+<img src="https://github.com/user-attachments/assets/864b807c-c975-4203-9083-73ce89ee2c00" height="auto" width="350">
+
+<br>
 
 ## Relacionamento entre as manutenções
 - Manutenções são categorizadas de forma individual, mas na prática estão interligadas
 - Ao modificar o código devido a uma nova biblioteca *(adaptativa)*, defeitos podem ser introduzidos. Logo, esses defeitos devem ser corrigidos *(corretiva)*
 - A introdução de uma nova funcionalidade *(evolutiva)*, pode requerer que o código seja refatorado antes para facilitar sua implementação *(preventiva)*
 
-![image](https://github.com/user-attachments/assets/da4d2f4d-a054-4917-b9bf-9a6106c9c0ec)
+<img src="https://github.com/user-attachments/assets/da4d2f4d-a054-4917-b9bf-9a6106c9c0ec" height="auto" width="500">
 
 - Manutenção **corretiva** e **evolutiva** são mais visíveis e trazem valor direto para o usuário
 - Manutenção **preventiva** e **adaptativa** trazem valor indireto para o usuário
 
+<br>
 
 ## Leis de Lehman
 
@@ -109,3 +120,156 @@
 
 - **Sistema de Feedback:**
 	- A cada nova versão, gera feedback e novas informações e ajustes
+
+
+<br><br>
+
+## Manutenibilidade
+
+- **Tempo de reconhecimento do problema (MTTI):**
+	- Tempo médio para identificar a existência de um problema
+
+- **Tempo de demora administrativa (AD):**
+	- Tempo gasto para obter a aprovação para iniciar a correção *(processos burocráticos)*
+
+- **Tempo de correção ou modificação (MTTR):**
+	- Tempo médio necessário para solucionar o problema
+
+- **Tempo de teste local e global (TT):**
+	- Tempo gasto testando a correção em ambientes locais e globais, incluindo testes unitários, de integração e de regreção
+
+- **Tempo de revisão da manutenção (RAMT):**
+	- Tempo necessário para revisar o código corrigido e garantir a sua qualidade antes de liberar para produção
+
+<br>
+
+## Métricas de Manutenção
+
+- Tempo médio entre falhas **(MTBF)**
+- Tempo médio para reparar **(MTTR)**
+- First-Time Fix Rate **(FTFR)**
+- Disponibilidade do sistema **(SA)**
+- Backlog de manutenção
+- Manutenção planejada *x* não planejada
+- Custo de manutenção por incidente
+
+<br>
+
+## Tempo médio entre falhas (MTBF)
+
+- Utilizado para analisar a concepção do equipamento e/ou sistema e a segurança de ativos complexos
+- Baseia-se na relação entre as horas de funcionamento e o número de avarias/bugs
+- O MTBF mede o tempo médio que um sistema ou equipamento opera antes de falhar. É utilizado para entender a confiabilidade do ativo e melhorar a programação de manutenção preventiva
+
+***Exemplo:***
+*Em um projeto de manutenção de software, se um sistema permanece operacional por 300 horas com 5 falhas, o MTBF seria de 60 horas.*
+
+**Fórmula:**
+$$
+MTBF = \frac{\text{Tempo Total de Operação}}{\text{Número de Falhas}}
+$$
+
+<br><br>
+
+## Tempo médio para reparar (MTTR)
+
+Mede o tempo médio necessário para diagnosticar e reparar uma falha. Ele considera desde o início da falha até a retomada da operação normal.
+
+***Exemplo:***
+*O sistema falha a cada 120 horas de operação, o que significa que a equipe pode programar manutenções preventivas a cada 100 horas de uso, reduzindo a chance de falhas inesperadas.*
+
+**Fórmula:**
+<br>
+$$
+MTTR = \frac{\text{Tempo Total de Reparação}}{\text{Número de Reparaçōes}}
+$$
+
+<br><br><br>
+
+**Fórmula: Tempo médio para reparar (MTTR) para o tempo total de resolução de problemas**
+<br>
+$$
+MTTR = \frac{\text{Total de tempo gasto na resolução de problemas}}{\text{Número de problemas resolvidos}}
+$$
+
+<br><br><br>
+
+## First-Time Fix Rate (FTFR)
+
+Útil para medir a eficácia do time de manutenção em aplicar soluções robustas e eficientes já na primeira tentativa, o que é crucial para ambientes onde a recorrência de problemas pode gerar atrasos e aumento de custos.
+
+**Fórmula:**
+$$
+FTFR = \frac{\text{Número de problemas corrigidos na primeira tentativa}}{\text{Total de problemas corrigidos}} \times 100
+$$
+
+<br><br><br>
+
+## Backlog de Manutenção
+
+**Fórmula:**
+<br>
+$$
+Backlog = \frac{\text{Número total de tarefas de manutenção pendentes}}{\text{Capacidade de resolução da equipe por período}} \times 100
+$$
+
+<br><br><br>
+
+## Disponibilidade do Sistema (SA)
+
+Mede o percentual de tempo que o sistema está disponível para uso pelos usuários. Em software, ela é particularmente importante para produtos SaaS, e-commerce ou qualquer software que precise estar sempre online.
+
+**Fórmula:**
+<br>
+$$
+Disponibilidade = \frac{\text{Tempo de operação}}{\text{Tempo total}} \times 100
+$$
+
+
+<br><br><br>
+
+## Fan-in / Fan-out
+
+- **Fan-in:**
+	- Número de funções que chamam uma dada função
+	- Valor alto significa grande impacto em mudanças *(propagação)*
+
+- **Fan-out:**
+	- Número de funções que foram chamadas por uma função
+	- Valor alto significa grande complexidade da função
+
+<br><br>
+
+***Exemplo 1:***
+
+**Suponha que temos os seguintes módulos:**
+
+- **Módulo A:** chamado pelos módulos B, C e D.
+- **Módulo B:** chama os módulos E e F.
+- **Módulo C:** chama os módulos G e H.
+
+**Calcule Fan-in de A e Fan-out de B e C**
+- **Fan-in de A:** 3 (B, C, D)
+- **Fan-out de B:** 2 (E, F)
+- **Fan-out de C:** 2 (G, H)
+
+<br><br>
+
+***Exemplo 2:***
+
+**Dado o seguinte sistema:**
+- **Módulo X:** chamado por A, B.
+- **Módulo Y:** chamado por X.
+- **Módulo Z:** chamado por X, Y.
+- **Módulo W:** chama X, Y, Z.
+
+**Calcule o Fan-in e o Fan-out para os módulos X, Y, Z, e W:**
+
+- **Fan-in de X:** 3 (A, B, W)
+- **Fan-out de X:** 2 (Y, Z)
+- **Fan-in de Y:** 2 (X, W)
+- **Fan-out de Y:** 1 (Z)
+- **Fan-in de Z:** 3 (X, Y, W)
+- **Fan-out de Z:** 0
+- **Fan-in de W:** 0
+- **Fan-out de W:** 3 (X, Y, Z)
