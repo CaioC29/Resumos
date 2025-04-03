@@ -9,16 +9,6 @@
 
 <br>
 
-## Métricas de Chidamber-Kemerer (CK): específicas para OO
-- Profundidade de herança **(DIT)**
-- Número de filhos **(NOC)**
-- Acoplamento entre objetos **(CBO)**
-- Falta de coesão em métodos **(LCOM)**
-- Métodos ponderados por classe **(WMC)**
-- Resposta para classe **(RFC)**
-
-<br>
-
 ## Desenvolvimento vs Manutenção
 
 - Adicionar uma nova funcionalidade durante o desenvolvimento é mais fácil que durante a manutenção
@@ -179,12 +169,14 @@ Mede o tempo médio necessário para diagnosticar e reparar uma falha. Ele consi
 ***Exemplo:***
 *O sistema falha a cada 120 horas de operação, o que significa que a equipe pode programar manutenções preventivas a cada 100 horas de uso, reduzindo a chance de falhas inesperadas.*
 
-**Fórmula:**
 <br>
+
+**Fórmula:**
+<br><br>
 
 $$MTTR = \frac{\text{Tempo Total de Reparação}}{\text{Número de Reparaçōes}}$$
 
-<br><br><br>
+<br><br><br><br>
 
 **Fórmula: Tempo médio para reparar (MTTR) para o tempo total de resolução de problemas**
 <br><br><br>
@@ -198,7 +190,7 @@ $$MTTR = \frac{\text{Total de tempo gasto na resolução de problemas}}{\text{N�
 Útil para medir a eficácia do time de manutenção em aplicar soluções robustas e eficientes já na primeira tentativa, o que é crucial para ambientes onde a recorrência de problemas pode gerar atrasos e aumento de custos.
 
 **Fórmula:**
-<br>
+<br><br>
 
 $$FTFR = \frac{\text{Número de problemas corrigidos na primeira tentativa}}{\text{Total de problemas corrigidos}} \times 100$$
 
@@ -207,23 +199,23 @@ $$FTFR = \frac{\text{Número de problemas corrigidos na primeira tentativa}}{\te
 ## Backlog de Manutenção
 
 **Fórmula:**
-<br>
+<br><br>
 
 $$Backlog = \frac{\text{Número total de tarefas de manutenção pendentes}}{\text{Capacidade de resolução da equipe por período}} \times 100$$
 
-<br><br><br>
+<br><br>
 
 ## Disponibilidade do Sistema (SA)
 
 Mede o percentual de tempo que o sistema está disponível para uso pelos usuários. Em software, ela é particularmente importante para produtos SaaS, e-commerce ou qualquer software que precise estar sempre online.
 
 **Fórmula:**
-<br>
+<br><br>
 
 $$Disponibilidade = \frac{\text{Tempo de operação}}{\text{Tempo total}} \times 100$$
 
 
-<br><br><br>
+<br><br>
 
 ## Fan-in / Fan-out
 
@@ -271,39 +263,39 @@ $$Disponibilidade = \frac{\text{Tempo de operação}}{\text{Tempo total}} \times
 - **Fan-in de W:** 0
 - **Fan-out de W:** 3 (X, Y, Z)
 
+<br>
 
 ## Métricas OO (CK)
 
-- Métricas de Chidamber-Kemerer (CK) específicas para sistemas orientados a objetos:
-	- Profundidade de herança **(DIT)**
-		- Representa o número de níveis que uma classe herda métodos e atributos
-			- Quanto maior a profundidade, mais complexo o projeto
+Métricas de Chidamber-Kemerer (CK) específicas para sistemas orientados a objetos:
 
-	- Número de filhos **(NOC)**
-		- Conta o número de subclasses diretas
-		- Mede a largura da hierarquia de uma classe
-		- Valor alto pode indicar reuso
+- **Profundidade de herança (DIT)**
+	- Representa o número de níveis que uma classe herda métodos e atributos
+	- Quanto maior a profundidade, mais complexo o projeto
 
-	- Acoplamento entre objetos **(CBO)**
-		- Semelhante a Fan-out
-		- Conta classes chamadas por uma classe
-		- Quanto mais acoplado uma classe, mais difícil de entender e de manter
+- **Número de filhos (NOC)**
+	- Conta o número de subclasses diretas
+	- Mede a largura da hierarquia de uma classe
+	- Valor alto pode indicar reuso
 
-	- Falta de coesão em métodos **(LCOM)**
-		- Para cada par de métodos, métodos que não compartilham atributos menos os que compartilham
-		- Mais atributos em comum, maior coesão, menor perda de coesão (LCOM)
-		- Baixa coesão aumenta a complexidade
+- **Acoplamento entre objetos (CBO)**
+	- Semelhante a Fan-out
+	- Conta classes chamadas por uma classe
+	- Quanto mais acoplado uma classe, mais difícil de entender e de manter
 
-	- Métodos ponderados por classes **(WMC)**
-		- Atribui pesos aos métodos de uma classe
-		- Pode-se pesar os métodos por:
-			- Linhas de código
-			- Complexidade ciclomática
-			- Número de parâmetros
+- **Falta de coesão em métodos (LCOM)**
+	- Para cada par de métodos, métodos que não compartilham atributos menos os que compartilham
+	- Mais atributos em comum, maior coesão, menor perda de coesão (LCOM)
+	- Baixa coesão aumenta a complexidade
 
-	- Resposta para classe **(RFC)**
-		- Conta os números de métodos que podem ser executados em resposta a uma mensagem recebida por um objeto
-		- Conta o número de métodos da classe mais o número de métodos chamados pelos métodos da classe
-		- Quanto maior o RFC, mais complexa é a classe
+- **Métodos ponderados por classes (WMC)**
+	- Atribui pesos aos métodos de uma classe
+	- Pode-se pesar os métodos por:
+		- Linhas de código
+		- Complexidade ciclomática
+		- Número de parâmetros
 
-
+- **Resposta para classe (RFC)**
+	- Conta os números de métodos que podem ser executados em resposta a uma mensagem recebida por um objeto
+	- Conta o número de métodos da classe mais o número de métodos chamados pelos métodos da classe
+	- Quanto maior o RFC, mais complexa é a classe
