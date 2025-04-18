@@ -1,4 +1,4 @@
-﻿# Resumo IHC
+﻿# Interface Humano-Computador
 
 ## Construção vs Uso
 - **Construção** como prioridade:
