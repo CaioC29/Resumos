@@ -417,7 +417,7 @@ A resolução de problemas em cooperação envolve mais do que o indivíduo, que
 
 ## Semiótica
 
->Caracteriza a interação humano-computador como um caso particular de comunicação humana mediada por sistemas computacionais *(de Souza, 2005)*
+>"Caracteriza a interação humano-computador como um caso particular de comunicação humana mediada por sistemas computacionais" *(de Souza, 2005)*
 
 Foco na comunicação entre **designers**, **usuários**, e **sistemas**
 
