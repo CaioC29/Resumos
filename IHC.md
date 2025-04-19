@@ -341,3 +341,86 @@ As cores utilizadas no projeto de uma interface devem ser bem escolhidas e contr
 Caso seja necessário utilizar códigos de cores para categorizar informações visuais, essas cores devem ser utilizadas em primeiro lugar
 
 A semântica atribuída a uma determinada cor varia. Por exemplo, a cor <font color="red">vermelha</font> pode simbolizar um alerta de perigo ou erro
+
+<br><br>
+
+## Engenharia Cognitiva
+
+Na base da engenharia cognitiva está a discrepância entre os **objetivos expressos psicologicamente** e os **controles** e **variáveis físicos** de uma tarefa
+
+* Uma pessoa inicia com objetivos e intenções, que são **variáveis psicológicas**, pois existem apenas na mente da pessoa e se relacionam diretamente às suas necessidades e à sua situação atual
+* A tarefa deve ser realizada em um sistema físico, com controles físicos a serem manipulados, resultando em mudanças nas **variáveis físicas** e no **estado do sistema**
+
+<br>
+
+*Exemplo 1:*
+
+**Controle da temperatura e fluxo de água na torneira**
+
+![torneira](https://cdn.discordapp.com/attachments/1088114332539306086/1363223494141415424/image.png?ex=68054050&is=6803eed0&hm=3dd41d01196f654ca43cd7c43659ccb4a48cbe26dfae1bf6c4edcd2ca605798c&)
+
+* **Problemas de mapeamento:** Qual controla a água quente e fria? Em que direção devo girar para aumentar ou reduzir o fluxo de água?
+* **Dificuldade de controle:** Para controlar a temperatura da água mantendo um fluxo constante, é preciso girar as duas torneiras simultaneamente
+* **Dificuldade de avaliação:** Na existência de dois bicos de torneira, pode ser difícil avaliar se o resultado esperado foi alcançado
+
+<br>
+
+*Exemplo 2:*
+
+**Definição de cor via componentes RGB *(Red, Green, Blue)* e HSL *(Hue, Saturation, Luminance)***
+
+![seletor_cor1](https://cdn.discordapp.com/attachments/1088114332539306086/1363224695960506640/image.png?ex=6805416f&is=6803efef&hm=8097dcfedfdcada020fd72618409748eef6f303a54a249bf092b06d41a63d168&)
+
+* **Problemas de mapeamento:** Qual dos controles controla cada canal de cor?
+* **Dificuldade de controle:** Para selecionar a cor desejada, é preciso conhecer os valores de cada canal de cor e alterar os 3 simultaneamente até chegar na cor desejada
+* **Dificuldade de avaliação:** O programa não mostra ao usuário a cor definida, causando dúvida e frustração
+
+<br>
+
+*Solução (Seletor RGB):*
+
+![seletor_cor2](https://cdn.discordapp.com/attachments/1088114332539306086/1363225910299590887/image.png?ex=68054290&is=6803f110&hm=6175dfa0e2f12d5750cbbc0c13bd37d29b7aed88ed92e6d0bdb9a82cf3fa04b3&)
+
+<br>
+
+*Solução (Seletor HSL):*
+
+![seletor_hsl](https://cdn.discordapp.com/attachments/1088114332539306086/1363226286641778758/image.png?ex=680542ea&is=6803f16a&hm=3384c5bec242a6437f9f06eb093141e793aa75ee4b1d8eb6ef0d93c9cd5db7d0&)
+
+<br><br>
+
+## Etnometodológicas
+
+Enfatizam as influências entre **contexto físico** e **sociocultural** e o uso de sistemas computacionais interativos
+
+Ao conduzir estudos sobre o uso real de um sistema no local de trabalho, é possível **coletar dados detalhados** sobre a aplicação de tecnologia que podem ser utilizados na sua **avaliação** e no **redesign**
+
+<br><br>
+
+## Teoria da Atividade
+
+* **Concentra-se em 4 pontos principais:**
+	* Análise e design de uma prática de trabalho específica considerando: qualificações, ambiente de trabalho, divisão de trabalho, e assim por diante
+	* Análise e design com foco no uso real e complexidade da atividade, em particular, na noção essencial do artefato como mediador da atividade humana
+	* Desenvolvimento da experiência e do uso geral
+	* Participação ativa do usuário no design, e com foco no uso como parte do design
+
+<br><br>
+
+## Cognição Distribuída
+
+Amplia a semântica de cognitivo para abranger as interações entre pessoas, recursos e materiais
+
+A resolução de problemas em cooperação envolve mais do que o indivíduo, que se torna um componente dos recursos de resolução de problemas do grupo
+
+<br><br>
+
+## Semiótica
+
+>Caracteriza a interação humano-computador como um caso particular de comunicação humana mediada por sistemas computacionais *(de Souza, 2005)*
+
+Foco na comunicação entre **designers**, **usuários**, e **sistemas**
+
+* Investiga processos de comunicação em dois níveis:
+	* Comunicação direta **usuário-sistema**
+	* Metacomunicação do **designer para o usuário** mediada pelo sistema, através da **interface**
