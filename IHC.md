@@ -285,42 +285,42 @@ Muito da nossa inteligência pode ser caracterizada pela nossa **capacidade de i
 
 ![proximidade](https://cdn.discordapp.com/attachments/1088114332539306086/1363208206439940227/image.png?ex=68053213&is=6803e093&hm=87925e89a74d4429890e88996f5c3a20359fcb34d38fb64761aa1898f5467aaa&)
 
-<br>
+---
 
 * **Continuidade:**
 	* Traços contínuos são percebidos mais prontamente do que contornos que mudem de direção rapidamente
 
 ![continuidade](https://cdn.discordapp.com/attachments/1088114332539306086/1363209081799839885/image.png?ex=680532e4&is=6803e164&hm=b9afa9de3f21b5284a2b135fc0c725893e67ff730829dfa7720da66aad24119d&)
 
-<br>
+---
 
 * **Simetria:**
 	* Elementos simétricos tendem a ser percebidos como pertencentes um ao outro, independentemente de sua distância, transmitindo uma sensação de ordem
 
 ![simetria](https://cdn.discordapp.com/attachments/1088114332539306086/1363209599607509185/image.png?ex=6805335f&is=6803e1df&hm=e97b097352f563a7aef9a800fcbe5a2f355191745753a80bff64811b720ab9e0&)
 
-<br>
+---
 
 * **Similaridade:**
 	* Elementos que compartilham as mesmas características visuais são mais relacionados do que aqueles que não compartilham
 
 ![similaridade](https://cdn.discordapp.com/attachments/1088114332539306086/1363210093826674738/image.png?ex=680533d5&is=6803e255&hm=9e3cc803b9f741fef402f71796617c2e5993f2eddad791337107d63e655fd914&)
 
-<br>
+---
 
 * **Destino comum:**
 	* Elementos posicionados dentro da mesma região fechada são percebidos como parte do mesmo grupo
 
 ![destino_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363210692387147836/image.png?ex=68053464&is=6803e2e4&hm=9ae7217733e3f8d6fcb88d7a48fb23a49196fadf8634e6e0db18b21f4ebfb05c&)
 
-<br>
+---
 
 * **Fecho:**
 	* A mente tende a fechar contornos para completar figuras regulares. O ser humano utiliza a memória para converter objetos complexos em formas simples
 
 ![fecho](https://cdn.discordapp.com/attachments/1088114332539306086/1363211622835028159/image.png?ex=68053542&is=6803e3c2&hm=7b917fa3ed70677395c348df162e707ca3ae114d3bfc941597327ea894344ff7&)
 
-<br>
+---
 
 * **Fato comum:**
 	* Elementos que se movem na mesma direção são mais relacionados do que os que se movem em direção opostas ou que não se movem
@@ -381,7 +381,7 @@ Na base da engenharia cognitiva está a discrepância entre os **objetivos expre
 
 ![seletor_cor2](https://cdn.discordapp.com/attachments/1088114332539306086/1363225910299590887/image.png?ex=68054290&is=6803f110&hm=6175dfa0e2f12d5750cbbc0c13bd37d29b7aed88ed92e6d0bdb9a82cf3fa04b3&)
 
-<br>
+<br><br>
 
 *Solução (Seletor HSL):*
 
