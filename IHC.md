@@ -194,3 +194,150 @@ Se os usuários não compreendem a lógica do design, a interação se tornará 
 A incerteza sobre o efeito de  uma ação pode causar **angústia** e **[insatisfação](https://studeo.unicesumar.edu.br/)** aos usuários
 
 <br><br>
+
+## Lei de Hick-Hyman
+
+Relaciona o **tempo** levado para uma pessoa tomar uma decisão com o **número de possíveis escolhas** disponíveis
+
+<br>
+
+A lei de Hick-Hyman indica que uma pessoa subdivide o cunjunto total de opções em categorias, eliminando aproximadamente metade das opções a cada passo, ao invés de considerar todas as escolhas uma a uma, o que requer tempo linear.
+
+<br>
+
+* **Mais escolhas** resultam em **mais tempo para pensar** e tomar uma decisão
+* **Simplifique** as opções para o usuário dividindo tarefas complexas em **etapas menores**
+* Evite sobrecarregar os usuários destacando opções recomendadas
+
+<br><br>
+
+## Lei de Fitts
+
+Relaciona o tempo **(T)** que uma pessoa leva para apontar para algo com o tamanho **(S)** do objeto-alvo e com a distância **(D)** entre a mão do usuário e o objeto-alvo
+
+![lei_de_fitts](https://cdn.discordapp.com/attachments/1088114332539306086/1363199655290343554/image.png?ex=68052a1c&is=6803d89c&hm=19c8d9b73beb1776d2bd0d3832c06834261c5968fe1eb272fa6c96c68fdc6da0&)
+
+<br>
+
+O tempo necessário para mover-se rapidamente de uma posição inicial até a posição final é **proporcional** ao tamanho do objeto-alvo e a distância. É mais fácil atingir objetos maiores e mais próximos do que menores e mais distantes.
+
+A distância entre a área de tarefas/atenção de um usuário e o botão relacionado à tarefa deve ser a mais curta possível
+
+![botao_acao](https://cdn.discordapp.com/attachments/1088114332539306086/1363200624707108934/image.png?ex=68052b03&is=6803d983&hm=2a9c4d4aae2471423cfb80cccc2c9cc06a92e991355a1946e79bcc63a11229b1&)
+
+<br><br>
+
+## Processador Humano de Informação
+
+Modela os processos de informação de um usuário interagindo com um computador
+
+Prevê quais processos cognitivos estão envolvidos na interação do usuário-computador
+
+![usuario-cognitivo](https://cdn.discordapp.com/attachments/1088114332539306086/1363201647832076288/image.png?ex=68052bf7&is=6803da77&hm=fef17bcd639e64cff770ade3f065ad4c27686e60ebe5d66c557e31147c530911&)
+
+<br>
+
+* **Processador perceptivo:**
+	* Transmite as sensações do mundo físico detectados pelos sistemas sensoriais do corpo
+	* Visão central, periférica, movimento dos olhos e cabeça operam como um sistema integrado
+	* As sensações são armazenadas temporariamente na memória sensorial e, algumas delas são codificadas simbolicamente na memória de trabalho.
+
+<br>
+
+* **Processador Cognitivo:**
+	* Recebe a informação simbólica do armazenamento sensorial e utiliza informações armazenadas na memória de longo prazo para tomar decisões sobre como responder à estímulos recebidos
+
+<br>
+
+* **Processador Motor:**
+	* Traduz o pensamento produzido pelo sistema cognitivo em ação através de estímulos musculares voluntários
+
+<br>
+
+* **Memórias:**
+	* A memória de trabalho retém informações em uso, e a memória de longo-prazo armazena conhecimento para uso futuro
+	* Elementos de informação armazenados na memória de longo prazo *(e armazenados na memória de trabalho)* são chamados de **chunks**
+		* Segundo Miller(1956), a capacidade da memória de trabalho é de **7 ± 2 chunks**
+		* Quando um **chunk** é ativado, **chunks** relacionados também são
+			* *Ex: Livro -> livraria onde foi comprado -> viagem onde foi comprado -> fotos da viagem*
+
+<br><br>
+
+## Princípios de Gestalt
+
+Gestalt significa "forma" ou "formato" em alemão
+
+Muito da nossa inteligência pode ser caracterizada pela nossa **capacidade de identificar padrões visuais**
+
+* **Leis baseadas em:**
+	* Proximidade
+	* Continuidade
+	* Simetria
+	* Similaridade
+	* Destino comum
+	* Fecho
+	* Fato comum
+
+<br>
+
+* **Proximidade:**
+	* As entidades visuais que estão próximas umas das outras são percebidas como um grupo ou unidade;
+
+![proximidade](https://cdn.discordapp.com/attachments/1088114332539306086/1363208206439940227/image.png?ex=68053213&is=6803e093&hm=87925e89a74d4429890e88996f5c3a20359fcb34d38fb64761aa1898f5467aaa&)
+
+<br>
+
+* **Continuidade:**
+	* Traços contínuos são percebidos mais prontamente do que contornos que mudem de direção rapidamente
+
+![continuidade](https://cdn.discordapp.com/attachments/1088114332539306086/1363209081799839885/image.png?ex=680532e4&is=6803e164&hm=b9afa9de3f21b5284a2b135fc0c725893e67ff730829dfa7720da66aad24119d&)
+
+<br>
+
+* **Simetria:**
+	* Elementos simétricos tendem a ser percebidos como pertencentes um ao outro, independentemente de sua distância, transmitindo uma sensação de ordem
+
+![simetria](https://cdn.discordapp.com/attachments/1088114332539306086/1363209599607509185/image.png?ex=6805335f&is=6803e1df&hm=e97b097352f563a7aef9a800fcbe5a2f355191745753a80bff64811b720ab9e0&)
+
+<br>
+
+* **Similaridade:**
+	* Elementos que compartilham as mesmas características visuais são mais relacionados do que aqueles que não compartilham
+
+![similaridade](https://cdn.discordapp.com/attachments/1088114332539306086/1363210093826674738/image.png?ex=680533d5&is=6803e255&hm=9e3cc803b9f741fef402f71796617c2e5993f2eddad791337107d63e655fd914&)
+
+<br>
+
+* **Destino comum:**
+	* Elementos posicionados dentro da mesma região fechada são percebidos como parte do mesmo grupo
+
+![destino_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363210692387147836/image.png?ex=68053464&is=6803e2e4&hm=9ae7217733e3f8d6fcb88d7a48fb23a49196fadf8634e6e0db18b21f4ebfb05c&)
+
+<br>
+
+* **Fecho:**
+	* A mente tende a fechar contornos para completar figuras regulares. O ser humano utiliza a memória para converter objetos complexos em formas simples
+
+![fecho](https://cdn.discordapp.com/attachments/1088114332539306086/1363211622835028159/image.png?ex=68053542&is=6803e3c2&hm=7b917fa3ed70677395c348df162e707ca3ae114d3bfc941597327ea894344ff7&)
+
+<br>
+
+* **Fato comum:**
+	* Elementos que se movem na mesma direção são mais relacionados do que os que se movem em direção opostas ou que não se movem
+
+![fato_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363212052746862742/image.png?ex=680535a8&is=6803e428&hm=6c6460cf552e73e9cdee59a19e73de163ac512fa43df5f45aa35fb1e83692041&)
+
+<br><br>
+
+## Percepção de Cores
+
+As cores utilizadas no projeto de uma interface devem ser bem escolhidas e contrastadas
+
+![contraste](https://cdn.discordapp.com/attachments/1088114332539306086/1363212439034003617/image.png?ex=68053604&is=6803e484&hm=d73a39897c623d497778ba5e79e493bbf48f5b1323fd86804bec58b4a2ce58f5&)
+
+
+<font color="red">Vermelho</font>, <font color="green">verde</font>, <font color="yellow">amarelo</font>, <font color="blue">azul</font>, <font color="black">preto </font>e <font color="white">branco</font> são cores especiais em todas as sociedades
+
+Caso seja necessário utilizar códigos de cores para categorizar informações visuais, essas cores devem ser utilizadas em primeiro lugar
+
+A semântica atribuída a uma determinada cor varia. Por exemplo, a cor <font color="red">vermelha</font> pode simbolizar um alerta de perigo ou erro
