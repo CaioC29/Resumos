@@ -120,14 +120,19 @@ void enfileirar(No **fila, int num){
 **Remover um elemento da fila:**
 
 ```c
-No* desenfileirar(No **fila){
+int desenfileirar(No **fila) {
+    if (*fila == NULL) {
+        printf("Fila vazia.\n");
+        return -1;
+    }
 
-	No *aux = NULL;
-	
-	if(*fila){
-		aux = *fila;
-		*fila = aux->proximo;
-	}
+    No *remover = *fila;
+    int valor = remover->valor;
+
+    *fila = remover->proximo;
+    free(remover);
+
+    return valor;
 }
 ```
 
@@ -579,11 +584,19 @@ void imprimir_if(No *no){
 **Imprimir lista dupla do fim ao início:**
 
 ```c
-void imprimir_fi(No *no){
-    printf("\nLista: ");
-    while(no){
-        printf("%d ", no->valor);
-        no = no->anterior;
+void imprimir_do_fim(No **lista) {
+    No *aux = *lista;
+
+    // vai até o último nó
+    while (aux && aux->proximo) {
+        aux = aux->proximo;
+    }
+
+    // percorre do fim até o início usando o campo 'anterior'
+    printf("\nLista (do fim ao início): ");
+    while (aux) {
+        printf("%d ", aux->valor);
+        aux = aux->anterior;
     }
     printf("\n\n");
 }
