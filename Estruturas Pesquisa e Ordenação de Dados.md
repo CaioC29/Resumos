@@ -6,6 +6,11 @@
 
 Variáveis que armazenam endereços de memória de outras variáveis
 
+* **Ponteiros** tornam possível:
+	* Inserir/remover elementos com flexibilidade.
+	* Alocar memória sob demanda.
+	* Encadear estruturas complexas mesmo com espaços de memória fragmentados.
+
 <br><br>
 
 ## Definição de um Nó
