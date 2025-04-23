@@ -223,7 +223,7 @@ O tempo necessário para mover-se rapidamente de uma posição inicial até a po
 
 A distância entre a área de tarefas/atenção de um usuário e o botão relacionado à tarefa deve ser a mais curta possível
 
-![botao_acao](https://cdn.discordapp.com/attachments/1088114332539306086/1363200624707108934/image.png?ex=68052b03&is=6803d983&hm=2a9c4d4aae2471423cfb80cccc2c9cc06a92e991355a1946e79bcc63a11229b1&)
+![botao_acao](https://cdn.discordapp.com/attachments/1088114332539306086/1363200624707108934/image.png?ex=680a7103&is=68091f83&hm=1b3f8c55cebe1178777c757c91be959fcfd0bb8cdeaf0bf9316b3a10973af75f&)
 
 <br><br>
 
@@ -290,14 +290,14 @@ Muito da nossa inteligência pode ser caracterizada pela nossa **capacidade de i
 * **Continuidade:**
 	* Traços contínuos são percebidos mais prontamente do que contornos que mudem de direção rapidamente
 
-![continuidade](https://cdn.discordapp.com/attachments/1088114332539306086/1363209081799839885/image.png?ex=680532e4&is=6803e164&hm=b9afa9de3f21b5284a2b135fc0c725893e67ff730829dfa7720da66aad24119d&)
+![continuidade](https://cdn.discordapp.com/attachments/1088114332539306086/1363209081799839885/image.png?ex=6809d024&is=68087ea4&hm=1c8158481cc462f025695600e1ba215230e401af84802b05dae697d436423f68&)
 
 ---
 
 * **Simetria:**
 	* Elementos simétricos tendem a ser percebidos como pertencentes um ao outro, independentemente de sua distância, transmitindo uma sensação de ordem
 
-![simetria](https://cdn.discordapp.com/attachments/1088114332539306086/1363209599607509185/image.png?ex=6805335f&is=6803e1df&hm=e97b097352f563a7aef9a800fcbe5a2f355191745753a80bff64811b720ab9e0&)
+![simetria](https://cdn.discordapp.com/attachments/1088114332539306086/1363209599607509185/image.png?ex=6809d09f&is=68087f1f&hm=b51d3f42b5967c79a7e5bd8a39dc22d91daf6826a8c2fb1315a61cc907ba3d43&)
 
 ---
 
@@ -311,21 +311,21 @@ Muito da nossa inteligência pode ser caracterizada pela nossa **capacidade de i
 * **Destino comum:**
 	* Elementos posicionados dentro da mesma região fechada são percebidos como parte do mesmo grupo
 
-![destino_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363210692387147836/image.png?ex=68053464&is=6803e2e4&hm=9ae7217733e3f8d6fcb88d7a48fb23a49196fadf8634e6e0db18b21f4ebfb05c&)
+![destino_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363210692387147836/image.png?ex=6809d1a4&is=68088024&hm=1525e3c2bf4e0d4795c6a9f2b19b78b3650c4819a26692b4dceeac2e0eff4cfb&)
 
 ---
 
 * **Fecho:**
 	* A mente tende a fechar contornos para completar figuras regulares. O ser humano utiliza a memória para converter objetos complexos em formas simples
 
-![fecho](https://cdn.discordapp.com/attachments/1088114332539306086/1363211622835028159/image.png?ex=68053542&is=6803e3c2&hm=7b917fa3ed70677395c348df162e707ca3ae114d3bfc941597327ea894344ff7&)
+![fecho](https://cdn.discordapp.com/attachments/1088114332539306086/1363211622835028159/image.png?ex=6809d282&is=68088102&hm=c0748946ae14cfc9f4a6a57d0f44cd46a104ff2702fcd4b28b8cee1a363f70af&)
 
 ---
 
 * **Fato comum:**
 	* Elementos que se movem na mesma direção são mais relacionados do que os que se movem em direção opostas ou que não se movem
 
-![fato_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363212052746862742/image.png?ex=680535a8&is=6803e428&hm=6c6460cf552e73e9cdee59a19e73de163ac512fa43df5f45aa35fb1e83692041&)
+![fato_comum](https://cdn.discordapp.com/attachments/1088114332539306086/1363212052746862742/image.png?ex=6809d2e8&is=68088168&hm=b6e3b79e0a23574575ca6bc1274f12d2b748ced24b6fd283f84148b6c1f17264&)
 
 <br><br>
 
