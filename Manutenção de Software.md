@@ -7,7 +7,7 @@
 - Difícil de quantificar:
 	- Alguns aspectos do sistema podem ser medidos *(ex: complexidade, portabilidade)*
 
-<br>
+<br><br>
 
 ## Desenvolvimento vs Manutenção
 
@@ -18,7 +18,7 @@
 	- Prever o impacto da mudança *(efeito cascata)*
 	- Determinar as características necessárias para o trabalho
 
-<br>
+<br><br>
 
 ## Razões para manutenção de software
 
@@ -31,7 +31,7 @@
 - Adaptar a leis, regras de negócio, etc
 - Refatorar código
 
-<br>
+<br><br>
 
 ## Categorias de Manutenção
 
@@ -65,13 +65,13 @@
 	- Quando um software se torna útil, os usuário solicitam melhorias além do escopo inicial
 	- *(Ex: novas funcionalidades)*
 
-<br>
+<br><br>
 
 ## Proporção de manutenção
 
 <img src="https://github.com/user-attachments/assets/864b807c-c975-4203-9083-73ce89ee2c00" height="auto" width="350">
 
-<br>
+<br><br>
 
 ## Relacionamento entre as manutenções
 - Manutenções são categorizadas de forma individual, mas na prática estão interligadas
@@ -83,7 +83,7 @@
 - Manutenção **corretiva** e **evolutiva** são mais visíveis e trazem valor direto para o usuário
 - Manutenção **preventiva** e **adaptativa** trazem valor indireto para o usuário
 
-<br>
+<br><br>
 
 ## Leis de Lehman
 
@@ -131,7 +131,7 @@
 - **Tempo de revisão da manutenção (RAMT):**
 	- Tempo necessário para revisar o código corrigido e garantir a sua qualidade antes de liberar para produção
 
-<br>
+<br><br>
 
 ## Métricas de Manutenção
 
@@ -143,7 +143,7 @@
 - Manutenção planejada *x* não planejada
 - Custo de manutenção por incidente
 
-<br>
+<br><br>
 
 ## Tempo médio entre falhas (MTBF)
 
@@ -299,3 +299,94 @@ Métricas de Chidamber-Kemerer (CK) específicas para sistemas orientados a obje
 	- Conta os números de métodos que podem ser executados em resposta a uma mensagem recebida por um objeto
 	- Conta o número de métodos da classe mais o número de métodos chamados pelos métodos da classe
 	- Quanto maior o RFC, mais complexa é a classe
+
+<br><br>
+
+## Manutenção em modelos tradicionais
+
+### Cascata
+* Executa atividades de forma sequencial
+* Começa na comunicação e termina na implantação
+* Difícil de ocorrer em projetos reais atualmente
+
+<br>
+
+**Quando usar:**
+- Quando os requisitos do problema são bem definidos e estáveis
+- Quando há pouca chance de mudança nos requisitos
+- Sistemas críticos
+
+<br>
+
+**Vantagens:**
+- Paradigma mais antigo, estável e testado
+- Documentação robusta de cada atividade
+- Pode ser combinado com outros modelos
+- Simples, atividades são claras e bem definidas
+
+<br>
+
+**Desvantagens:**
+- Projetos reais raramente seguem um fluxo sequencial
+- Difícil para o cliente definir todos os requisitos antes
+- Clientes devem esperar *(versão do produto ficará pronta apenas no final do projeto)*
+- Difícil para lidar com mudanças inevitáveis de requisitos
+- Atrasos em fases refletem nas demais
+
+<br>
+
+![modelo_cascata](https://cdn.discordapp.com/attachments/1274578228832374906/1365370351311261837/image.png?ex=680d0fbb&is=680bbe3b&hm=b0de8eb3cbbcf940888f414bd396229bbf4880ef3cc2487594121de2ff13db77&)
+
+<br><br>
+
+### Incremental
+
+- Combina elementos do modelo cascata *(linear)* e fluxo paralelo
+- Cada sequência produz um incremento *(um produto operacional)*
+- Exemplo:
+	- Processador de texto:
+	- 1° entrega: abrir, editar e salvar documentos
+	- 2° entrega: desfazer, refazer, copiar, recortar e colar
+	- 3° entrega: corretor ortográfico
+	- 4° entrega: configuração de layout
+
+**Quando usar:**
+- Requisitos de software estão razoavelmente definidos
+- Escopo de desenvolvimento não pode ser puramente linear
+- Necessidade de fornecer número limitado de funcionalidades para usuários rapidamente
+
+<br>
+
+**Vantagens:**
+- Custo reduzido para acomodar mudanças
+- Feedback do cliente
+- Cliente acompanha evolução do sistema
+- Início do sistema pelas partes melhor entendidas
+- Riscos críticos são resolvidos antes de grandes investimentos
+
+<br>
+
+**Desvantagens:**
+- Cuidado ao definir o incremento para que não se aproxime do modelo cascata
+- Difícil gerência de software pois o sistema não é completamente especificado anteriormente
+- Produto pode se corromper com novos incrementos e se tornar mal estrutura
+
+
+![modelo_incremental](https://cdn.discordapp.com/attachments/1274578228832374906/1365371628577357854/image.png?ex=680d10eb&is=680bbf6b&hm=8c7fe720a02c285908f841c879c24f5d5864c758cc09ed12e5b06fd267717720&)
+
+<br><br>
+
+### Evolucionário
+
+- São iterativos *(repete atividades)*
+- Entregam uma versão mais completa do sistema a cada iteração *(curto prazo)*
+- Produtos crescem e mudam com o tempo
+- Algumas funcionalidades são bem entendidas, mas detalhes precisam ser definidos
+
+**Modelo espiral:**
+- Combina a natureza iterativa da prototipação com aspectos sistemáticos do cascata
+- Possibilita o desenvolvimento rápido de versões mais completas
+- Prototipação no início e incremental depois
+
+
+![modelo_espiral](https://cdn.discordapp.com/attachments/1274578228832374906/1365379098142183434/image.png?ex=680d17e0&is=680bc660&hm=c911c41ca56ff10224bbf5d11c1c962a3bd5aedb21714a9ece18e6b85f7c600f&)
