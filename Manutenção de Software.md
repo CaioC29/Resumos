@@ -372,7 +372,7 @@ Métricas de Chidamber-Kemerer (CK) específicas para sistemas orientados a obje
 - Produto pode se corromper com novos incrementos e se tornar mal estrutura
 
 
-![modelo_incremental](https://cdn.discordapp.com/attachments/1274578228832374906/1365371628577357854/image.png?ex=680d10eb&is=680bbf6b&hm=8c7fe720a02c285908f841c879c24f5d5864c758cc09ed12e5b06fd267717720&)
+![modelo_incremental](https://media.discordapp.net/attachments/1274578228832374906/1365371628577357854/image.png?ex=680d10eb&is=680bbf6b&hm=8c7fe720a02c285908f841c879c24f5d5864c758cc09ed12e5b06fd267717720&=&format=webp&quality=lossless)
 
 <br><br>
 
